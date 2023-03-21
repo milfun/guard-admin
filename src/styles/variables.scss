@@ -1,0 +1,54 @@
+// sidebar
+$menuText: #212121;
+$menuActiveText: #018cd4;
+$subMenuActiveText: #018cd4; //https://github.com/ElemeFE/element/issues/12951
+$menuBg: #fff;
+$menuHover: #f6f6f8;
+$subMenuBg: #f6f6f8;
+$subMenuHover: #f6f6f8;
+
+// $menuBg:#304156;
+// $menuHover:#263445;
+
+// $subMenuBg:#1f2d3d;
+// $subMenuHover:#001528;
+
+$sideBarWidth: 210px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
+
+/* 公共变量，不能删掉可以修改*/
+$primary: #018cd4;
+$primary-light: #f1f6ff;
+
+$blue: #7ba5ff;
+$red: #ff4c4c;
+$green: #4bdb9b;
+$yellow: #ffe300;
+$orange: #ffa000;
+$black: #212121;
+$white: #fff;
+
+$gradual-blue: linear-gradient(270deg, #7bbdff 0%, #7ba5ff 100%);
+$gradual-red: linear-gradient(270deg, #ffc088 0%, #ff758c 100%);
+$gradual-green: linear-gradient(90deg, #05c5aa 0%, #18edad 100%);
+$gradual-cyan: linear-gradient(270deg, #7bdfff 0%, #7bbdff 100%);
+$gradual-yellow: linear-gradient(270deg, #ffd925 0%, #fca919 100%);
+
+$color100: #212121;
+$color200: #757575;
+$color300: #bdbdbd;
+$color400: #efffff;
+$color500: #f6f6f8;
+$color600: #ffffff;
